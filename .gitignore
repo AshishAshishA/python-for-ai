@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated sales-analysis exports
+sales-analysis/output/
+*.xlsx
+~$*.xlsx
+
+# Generated chart
+data/weather_chart.png
